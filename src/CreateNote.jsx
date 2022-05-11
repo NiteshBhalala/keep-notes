@@ -46,7 +46,7 @@ const CreateNote = (props) => {
                     <input type="text" name="title" value={note.title} onChange={InputEvent} placeholder="Title"/> : null}
                     <textarea onClick={expandIt}  rows="" columns="" name="content" value={note.content} onChange={InputEvent}  placeholder="Write a note"></textarea>
                     {expand?
-                    <button onClick={addEvent} ><span className="plusBtn">+</span></button>:null}
+                    <button onClick={addEvent} ><span className="plusBtn">++++</span></button>:null}
                 </form>
             </div>
         </>
