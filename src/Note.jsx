@@ -1,6 +1,6 @@
 import React from 'react'
 // import DeleteIcon from '@mui/icons-material/Delete';
-// import DeleteOutlineIcon from "@material-ui/icons/DeleteOutline";
+import DeleteOutlineIcon from "@material-ui/icons/DeleteOutline";
 // import DeleteOutlineIcon from 'mui/icons-material/DeleteOutline';
 // import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
 
@@ -17,7 +17,7 @@ const Note = (props) => {
                 <br />
                 <p>{props.content}</p>
                 <button onClick = {deleteItemm} className="btn" >
-                    {/* <DeleteIcon className="deleteIcon" /> */}
+                    <DeleteOutlineIcon className="deleteIcon" />
                 </button>
             </div>
         </>

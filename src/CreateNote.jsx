@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Button from "@material-ui/core/Button";
 // import { faHome } from "@fortawesome/free-solid-svg-icons";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -46,7 +47,7 @@ const CreateNote = (props) => {
                     <input type="text" name="title" value={note.title} onChange={InputEvent} placeholder="Title"/> : null}
                     <textarea onClick={expandIt}  rows="" columns="" name="content" value={note.content} onChange={InputEvent}  placeholder="Write a note"></textarea>
                     {expand?
-                    <button onClick={addEvent} ><span className="plusBtn">++++++</span></button>:null}
+                    <Button onClick={addEvent} ><span className="plusBtn">+</span></Button>:null}
                 </form>
             </div>
         </>
