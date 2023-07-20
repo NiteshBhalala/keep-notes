@@ -17,9 +17,14 @@ const getLocalItems = () => {
 const App = () => {
     const [addItem, setAddItem] = useState(getLocalItems());
     const addNote = (note) => {
-        setAddItem((preValue) => {
-            return [...preValue,  note];
-        })
+        if(note.title !== "" && note.desc !== ""){
+            setAddItem((preValue) => {
+                return [...preValue,  note];
+            })
+        }
+        else{
+            console.log("Add note")
+        }
     };
 
     const deleteItem = (id) => {
