@@ -9,7 +9,7 @@
   line-height: 100px;
   background-color: #f5ba13;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   padding-left: 50px;
   color: white;
