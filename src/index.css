@@ -2,7 +2,8 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "Josefin Sans", "Arial Narrow";
+  font-family: 'Montserrat', sans-serif;
+
 }
 .header {
   width: 100%;
@@ -133,6 +134,6 @@ textarea {
 footer {
   width: 100%;
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
   text-align: center;
 }
